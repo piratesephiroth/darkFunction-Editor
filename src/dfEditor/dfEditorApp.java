@@ -22,7 +22,6 @@ package dfEditor;
 
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
-import javax.swing.UIManager;
 import java.awt.Toolkit;
 
 public class dfEditorApp extends SingleFrameApplication
@@ -41,13 +40,6 @@ public class dfEditorApp extends SingleFrameApplication
             {                                
                 Toolkit.getDefaultToolkit().setDynamicLayout(true);
                 System.setProperty("sun.awt.noerasebackground", "true");
-                
-                try {
-//                    TinyLookAndFeel tiny = new TinyLookAndFeel();
-                    UIManager.setLookAndFeel("de.muntjak.tinylookandfeel.TinyLookAndFeel");
-                } catch(Exception ex) {
-                    ex.printStackTrace();
-                }           
                 
                 self.showMainView();
             }
