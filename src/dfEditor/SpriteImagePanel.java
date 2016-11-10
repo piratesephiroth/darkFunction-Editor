@@ -50,7 +50,7 @@ public class SpriteImagePanel extends GraphicPanel
     {
         super.draw(g);
 
-        this.drawCheckerBoardBuffer(g, convertRectToViewRect(_graphicBounds));        
+        this.drawCheckerBoard(g, convertRectToViewRect(_graphicBounds));
     }
     
     @Override
