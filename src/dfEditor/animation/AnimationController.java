@@ -204,8 +204,8 @@ public class AnimationController extends dfEditorPanel implements
                 r.y -= topLeft.y; 
                 cell.draw(ig, r);              
                 
+                e.setDelay(cell.getDelay() * 16);
                 e.addFrame(image);
-                e.setDelay(cell.getDelay());
             }
             
             e.finish();           
