@@ -8,7 +8,7 @@
             <author name="Sam Taylor" email="sam@darkfunction.com"/>	
         </authors>
         <url>http://www.darkfunction.com/</url>
-		<run-privileged condition="izpack.windowsinstall.vista|izpack.windowsinstall.7" />
+		<run-privileged condition="izpack.windowsinstall" />
     </info>
     
 	<packs>
