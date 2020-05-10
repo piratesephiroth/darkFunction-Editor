@@ -4,12 +4,12 @@
     <programGroup defaultName="darkFunction Editor" location="applications" />
     <shortcut name="darkFunction Editor"
               target="$INSTALL_PATH\dfEditor.jar"                        
-			  workingDirectory="$INSTALL_PATH"
+              workingDirectory="$INSTALL_PATH"
               description="darkFunction Editor"
               initialState="noShow"
               programGroup="yes"
               desktop="no"
-              applications="yes"
+              applications="no"
               startMenu="no"
               startup="no">
         <createForPack name="Core" />
@@ -17,7 +17,7 @@
 	<shortcut name="Uninstall dfEditor"
               target="$INSTALL_PATH\Uninstaller\uninstaller.jar"                        
               description="Uninstall darkFunction Editor"
-			  workingDirectory="$INSTALL_PATH"
+              workingDirectory="$INSTALL_PATH"
               initialState="noShow"
               programGroup="yes"
               desktop="no"
