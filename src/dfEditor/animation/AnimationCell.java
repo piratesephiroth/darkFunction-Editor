@@ -247,13 +247,13 @@ public class AnimationCell
         {
             if (pair.graphic == aGraphic) pair.zOrder = zOrder;
 
-            if (pair.zOrder < lastZOrder) orderDirty = true;
+            if (pair.zOrder > lastZOrder) orderDirty = true;
             lastZOrder = pair.zOrder;
         }
 
         if (orderDirty)
         {
-            Collections.sort(graphicOrderList);
+            Collections.sort(graphicOrderList, Collections.reverseOrder());
             rebuild();
         }
 
