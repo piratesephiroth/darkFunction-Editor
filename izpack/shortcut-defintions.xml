@@ -8,7 +8,7 @@
               description="darkFunction Editor"
               initialState="noShow"
               programGroup="yes"
-              desktop="no"
+              desktop="yes"
               applications="no"
               startMenu="no"
               startup="no">
